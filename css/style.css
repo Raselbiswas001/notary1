@@ -1,0 +1,355 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ /*header start*/
+ header{
+
+ }
+.container {
+	margin: 0 auto;
+	width: 80%;
+   /* border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 20%;
+	/*border: 1px solid red;*/
+	margin-top: 5px;
+	
+}
+.logo img{
+ width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 70%;
+	margin-top: 10px;
+	/*border: 1px solid red;*/
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	
+	padding: 10px 15px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+
+	color: #535D69;
+	text-decoration: none;
+}
+
+.menu ul li a:last-child{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+     color: #BD233F;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {
+	background-image: url(../img/notary.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+
+.banner-content {
+	margin-top: 200px;
+margin-bottom: 200px;
+width: 30%;
+}
+
+.banner-content h1{
+	font-family: sans-serif;
+	font-size: 39px;
+    color: white;
+    
+}
+
+
+.banner-content p{
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 1.5;
+    color: white;
+
+    line-height: 1.6;
+    margin-top: 20px;
+}
+.banner-content button{
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+font-size: 16px;
+background-color: #ED1C24;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+
+/*banner end*/
+/*services start*/
+.services{
+	margin-top: 100px;
+}
+.services-works{
+width: 40%;
+text-align: center;
+
+/*border: 2px solid black;*/
+
+margin: 0 auto;
+}
+.services-works h1{
+font-family: sans-serif;
+font-size: 25px;
+}
+.services-works p{
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 300;
+color: #646464;
+margin: 25px;
+line-height: 1.5;
+}
+.services-items{
+/*border: 2px solid black;*/
+
+width: 30%;
+float: left;
+}
+.services-img{
+display: block;
+margin: 56px 124px;
+width: 100%;
+}
+
+
+/*services end*/
+/*blog start*/
+.blog {
+	margin-top: 100px;
+background-color: #F5F5F5;
+overflow: hidden;
+}
+.blog-text{
+width: 45%;
+float: left;
+margin: 33px 0;
+}
+.blog-text h1{
+	font-family: sans-serif;
+font-size: 26px;
+font-weight: 1.5;
+color: black;
+line-height: 1.5;
+}
+.blog-text p{
+	font-family: sans-serif;
+font-size: 17px;
+
+color: #B6B6B6;
+line-height: 1.6;
+margin-top: 20px;
+}
+.blog-text button{
+	padding: 10px 35px;
+background-color: red;
+color: white;
+margin: 20px 0;
+}
+
+
+
+.blog-video {
+	width: 45%;
+	float: right;
+}
+.blog-video video{
+
+}
+/*blog end*/
+/*features start*/
+.features {
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+
+
+.features-text {
+width: 50%;
+border: 2px solid red;
+margin: 0 auto;
+text-align: center;
+}
+.features-text h1{
+font-family: sans-serif;
+font-size: 25px;
+font-weight: 600;
+}
+.features-text p{
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: #646464;
+margin-top: 20px;
+line-height: 1.5;
+}
+.features-item {
+width: 30%;
+float: left;
+margin: 30px 0;
+text-align: center;
+/*border: 2px solid red;*/
+}
+
+.features-item-text{
+margin: 15px 0;
+}
+.features-item-text h2{
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 12px;
+}
+.features-item-text p{
+font-family: sans-serif;
+font-size: 16px;
+color: #646464;
+margin-bottom: 44px;
+}
+.features-item-icon {
+font-size: 40px;
+}
+.features-item-icon span{
+font-size: 30px;
+color: blue;
+padding: 11px;
+}
+.features-item-icon span i{
+
+}
+.far.fa-address-card {
+}
+
+.button button{
+padding: 10px 12px;
+background-color: white;
+}
+/*features end*/
+/*contact start*/
+#e-mail {
+}
+
+.contact {
+	margin-top: 100px;
+overflow: hidden;
+}
+
+
+.contact-us {
+width: 30%;
+float: left;
+border: 2px solid black;
+text-align: center;
+padding: 73px 0;
+}
+.contact-us h2{
+	font-family: sans-serif;
+font-size: 25px;
+margin-bottom: 12px;
+}
+.contact-us p{
+	margin-right: 64px;
+}
+.contact-us p:nth-child(2){
+
+}
+.contact-us p:nth-child(3){
+	margin-right: -12px;
+margin-top: 10px;
+
+}
+.contact-us p:nth-child(4){
+margin-right: -51px;
+margin-top: 10px;
+}
+.contact-us p span{}
+.far.fa-envelope {
+	color: red
+}
+
+.fas.fa-map-marker-alt {
+	color: red;
+}
+
+.useful-link {
+	width: 30%;
+float: left;
+border: 2px solid black;
+text-align: center;
+}
+.useful-link h2{
+	font-family: sans-serif;
+font-size: 25px;
+margin-bottom: 12px;
+}
+.useful-link p{
+	margin-right: 113px;
+}
+.useful-link p:nth-child(2){}
+.useful-link p:nth-child(3){}
+.useful-link p:nth-child(4){
+	margin-right: 30px
+}
+.useful-link p:nth-child(5){}
+.useful-link p:nth-child(6){
+	
+	 margin-right: 61px
+}
+.useful-link p:nth-child(8){
+	margin-right: 37px
+}
+.useful-link p:nth-child(10) {
+	margin-right: 125px;
+}
+.useful-link p:nth-child(12) {
+	margin-left: 10px;
+}
+.useful-link p span{}
+.our-newsletter {
+	width: 30%;
+float: left;
+border: 2px solid black;
+text-align: center;
+padding: 26px 0;
+}
+.our-newsletter h2{
+	font-family: sans-serif;
+font-size: 25px;
+margin-bottom: 12px;
+}
+.our-newsletter p{}{}
+.our-newsletter form{}
+/*contact end*/
